@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+background-color: rgb(254, 255, 224);
+}
+h1, h3{
+    color: black;
+}
+
+
+.container{
+    margin: 300px auto;
+    max-width: 300px;
+    width: 100%;
+}
+form{
+    margin-top: 30px;
+
+}
+input, button{
+    display: block;
+    padding: 8px;
+    
+    width: 100%;
+    margin-bottom: 8px;
+    resize: none;
+    
+}
+button{
+    background-color: rgb(60, 56, 128);
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(35, 33, 71);
+}
+.mensagem-certo{
+    background-color: rgb(36, 116, 5);
+    color: white;
+}
+.mensagem-erro{
+    background-color: red;
+    color: rgb(255, 255, 255);
+    
+}
+input.error{
+    color:  red;
+    border-color: red;
+    outline-color: red;
+}
